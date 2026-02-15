@@ -18,7 +18,8 @@ The system operates on a monthly rebalancing schedule, using a "Walk-Forward" va
 3. **Alpha Generation**:
     - **Base Model**: OLS Rolling Regression.
     - **ML Model**: XGBoost Ranker trained on 36-month lookback windows.
-4. **Portfolio Construction**: Selects Top-K assets (e.g., decile spread) equal-weighted.
+
+4. ### Submission Checklist: Selects Top-K assets (e.g., decile spread) equal-weighted
 
 ## 🏗️ Architecture
 
